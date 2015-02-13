@@ -7626,18 +7626,19 @@ td.visible-print {
 /* line 15, ../range-picker.sass */
 .rg-range-picker.rg-range-picker-vertical .rg-range-picker-calendars .rg-range-picker-calendar-box {
   width: 100%;
+  border-right: none;
 }
-/* line 18, ../range-picker.sass */
+/* line 19, ../range-picker.sass */
 .rg-range-picker .rg-range-picker-box {
   width: 100%;
   padding: 0;
   background-color: #fff;
 }
-/* line 25, ../range-picker.sass */
+/* line 26, ../range-picker.sass */
 .rg-range-picker .rg-range-picker-box.only-calendars .rg-range-picker-calendars {
   border-bottom-width: 0;
 }
-/* line 30, ../range-picker.sass */
+/* line 31, ../range-picker.sass */
 .rg-range-picker .rg-range-picker-calendars {
   border-bottom: solid 1px #ededed;
 }
@@ -7652,18 +7653,18 @@ td.visible-print {
 .rg-range-picker .rg-range-picker-calendars:after {
   clear: both;
 }
-/* line 35, ../range-picker.sass */
+/* line 36, ../range-picker.sass */
 .rg-range-picker .rg-range-picker-calendars .rg-range-picker-calendar-box {
   border-right: solid 1px #ededed;
   float: left;
   text-align: center;
   width: 50%;
 }
-/* line 42, ../range-picker.sass */
+/* line 43, ../range-picker.sass */
 .rg-range-picker .rg-range-picker-calendars .rg-range-picker-calendar-box.right, .rg-range-picker .rg-range-picker-calendars .rg-range-picker-calendar-box:last-child {
   border-right-width: 0;
 }
-/* line 48, ../range-picker.sass */
+/* line 49, ../range-picker.sass */
 .rg-range-picker .rg-range-picker-calendars .rg-range-picker-calendar-label {
   margin-bottom: 13px;
   margin-top: 13px;
@@ -7671,35 +7672,35 @@ td.visible-print {
   font-weight: 200;
 }
 
-/* line 57, ../range-picker.sass */
+/* line 58, ../range-picker.sass */
 .clean-calendar > table {
   width: 100%;
 }
-/* line 64, ../range-picker.sass */
+/* line 65, ../range-picker.sass */
 .clean-calendar > table thead tr:first-child {
   background-color: #f7fbfe;
 }
-/* line 71, ../range-picker.sass */
+/* line 72, ../range-picker.sass */
 .clean-calendar > table thead tr:first-child th button strong {
   font-weight: normal;
   text-transform: uppercase;
   color: #222222;
 }
-/* line 78, ../range-picker.sass */
+/* line 79, ../range-picker.sass */
 .clean-calendar > table thead tr:first-child + tr th {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 82, ../range-picker.sass */
+/* line 83, ../range-picker.sass */
 .clean-calendar > table thead tr:first-child + tr th small {
   font-weight: normal;
   color: #3497DB;
 }
-/* line 88, ../range-picker.sass */
+/* line 89, ../range-picker.sass */
 .clean-calendar > table thead tr th .btn {
   background-color: transparent !important;
 }
-/* line 97, ../range-picker.sass */
+/* line 98, ../range-picker.sass */
 .clean-calendar > table tbody tr td .btn {
   background-color: #fff;
   padding: 8px 6px;
@@ -7708,44 +7709,44 @@ td.visible-print {
   -webkit-transition-duration: 350ms;
   transition-duration: 350ms;
 }
-/* line 104, ../range-picker.sass */
+/* line 105, ../range-picker.sass */
 .clean-calendar > table tbody tr td .btn .text-info {
   font-weight: bold;
 }
-/* line 107, ../range-picker.sass */
+/* line 108, ../range-picker.sass */
 .clean-calendar > table tbody tr td .btn.active {
   background-color: #3497DB;
 }
-/* line 110, ../range-picker.sass */
+/* line 111, ../range-picker.sass */
 .clean-calendar > table tbody tr td .btn.active .text-info {
   color: #fff;
 }
-/* line 113, ../range-picker.sass */
+/* line 114, ../range-picker.sass */
 .clean-calendar .btn {
   border-width: 0;
 }
-/* line 116, ../range-picker.sass */
+/* line 117, ../range-picker.sass */
 .clean-calendar .btn, .clean-calendar .btn:hover, .clean-calendar .btn:focus, .clean-calendar .btn:active {
   outline: none !important;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 128, ../range-picker.sass */
+/* line 129, ../range-picker.sass */
 .rg-range-picker-slider {
   padding: 15px 20px;
   position: relative;
   min-height: 30px;
 }
-/* line 133, ../range-picker.sass */
+/* line 134, ../range-picker.sass */
 .rg-range-picker-slider .rg-range-picker-slider-labels {
   margin-bottom: 20px;
 }
-/* line 136, ../range-picker.sass */
+/* line 137, ../range-picker.sass */
 .rg-range-picker-slider .rg-range-picker-slider-labels .row {
   position: relative;
 }
-/* line 140, ../range-picker.sass */
+/* line 141, ../range-picker.sass */
 .rg-range-picker-slider .rg-range-picker-slider-labels .rg-range-picker-divider {
   position: absolute;
   left: 25%;
@@ -7754,7 +7755,7 @@ td.visible-print {
   border-top: solid 1px #ededed;
   text-align: center;
 }
-/* line 148, ../range-picker.sass */
+/* line 149, ../range-picker.sass */
 .rg-range-picker-slider .rg-range-picker-slider-labels .rg-range-picker-divider .label {
   position: relative;
   top: -9.75px;
@@ -7768,7 +7769,7 @@ td.visible-print {
   border-radius: 50%;
 }
 
-/* line 164, ../range-picker.sass */
+/* line 165, ../range-picker.sass */
 .label.label-range-picker {
   border: solid 1px #ededed;
   background-color: #fff;
@@ -7778,51 +7779,51 @@ td.visible-print {
   font-size: 11px;
 }
 
-/* line 173, ../range-picker.sass */
+/* line 174, ../range-picker.sass */
 .clean-slider {
   position: relative;
   height: 20px;
   margin-bottom: 20px;
   width: 100%;
 }
-/* line 179, ../range-picker.sass */
+/* line 180, ../range-picker.sass */
 .clean-slider .bar {
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
-/* line 183, ../range-picker.sass */
+/* line 184, ../range-picker.sass */
 .clean-slider .bar.full {
   height: 20px;
   background-color: #eeeeee;
   border-radius: 10px;
 }
-/* line 190, ../range-picker.sass */
+/* line 191, ../range-picker.sass */
 .clean-slider .bar.selection {
   background-color: #ffc955;
   height: 100%;
 }
-/* line 197, ../range-picker.sass */
+/* line 198, ../range-picker.sass */
 .clean-slider .bubble {
   text-indent: -999px;
   overflow: hidden;
 }
-/* line 205, ../range-picker.sass */
+/* line 206, ../range-picker.sass */
 .clean-slider .input.low, .clean-slider .input.high {
   cursor: ew-resize;
 }
-/* line 210, ../range-picker.sass */
+/* line 211, ../range-picker.sass */
 .clean-slider .input.selection {
   cursor: all-scroll;
 }
-/* line 217, ../range-picker.sass */
+/* line 218, ../range-picker.sass */
 .clean-slider .pointer.low {
   cursor: ew-resize;
 }
-/* line 221, ../range-picker.sass */
+/* line 222, ../range-picker.sass */
 .clean-slider .pointer.high {
   cursor: ew-resize;
 }
-/* line 225, ../range-picker.sass */
+/* line 226, ../range-picker.sass */
 .clean-slider .pointer.low, .clean-slider .pointer.high {
   background-color: #fff;
   width: 20px;
@@ -7832,7 +7833,7 @@ td.visible-print {
   border-radius: 50%;
   position: relative;
 }
-/* line 235, ../range-picker.sass */
+/* line 236, ../range-picker.sass */
 .clean-slider .pointer.low:after, .clean-slider .pointer.high:after {
   content: " ";
   background-color: #ffd16e;
